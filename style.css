@@ -19,6 +19,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+h2 {
+    text-align: center;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -54,11 +57,42 @@ nav ul li {
 .header {
     background-color: #333;
 }
+.line1 {
+    margin: 15px auto;
+    border-radius: 10px;
+    width: 90px;
+    height: 5px;
+    background-color: antiquewhite;
+}
 .small-container {
     max-width: 1380px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+}
+.dark{
+    background-color: rgb(29, 82, 92);
+}
+
+.childprods {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.childprods img {
+    width: 100%;
+}
+
+.childprods p {
+    font-size: 15px;
+    text-align: left;
+}
+.childprods:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
 }
 
 .testimonial {
